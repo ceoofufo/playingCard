@@ -14,6 +14,7 @@
 		F4BDBB421B4A050A00A1300D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB411B4A050A00A1300D /* Images.xcassets */; };
 		F4BDBB451B4A050A00A1300D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB431B4A050A00A1300D /* LaunchScreen.xib */; };
 		F4BDBB511B4A050A00A1300D /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BDBB501B4A050A00A1300D /* SuperCardTests.m */; };
+		F4BDBB5C1B4A063200A1300D /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BDBB5B1B4A063200A1300D /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F4BDBB4A1B4A050A00A1300D /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BDBB4F1B4A050A00A1300D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4BDBB501B4A050A00A1300D /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		F4BDBB5A1B4A063200A1300D /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		F4BDBB5B1B4A063200A1300D /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +84,8 @@
 		F4BDBB331B4A050A00A1300D /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				F4BDBB381B4A050A00A1300D /* AppDelegate.h */,
-				F4BDBB391B4A050A00A1300D /* AppDelegate.m */,
+				F4BDBB5A1B4A063200A1300D /* PlayingCardView.h */,
+				F4BDBB5B1B4A063200A1300D /* PlayingCardView.m */,
 				F4BDBB3B1B4A050A00A1300D /* ViewController.h */,
 				F4BDBB3C1B4A050A00A1300D /* ViewController.m */,
 				F4BDBB3E1B4A050A00A1300D /* Main.storyboard */,
@@ -96,6 +99,8 @@
 		F4BDBB341B4A050A00A1300D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4BDBB381B4A050A00A1300D /* AppDelegate.h */,
+				F4BDBB391B4A050A00A1300D /* AppDelegate.m */,
 				F4BDBB351B4A050A00A1300D /* Info.plist */,
 				F4BDBB361B4A050A00A1300D /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BDBB3D1B4A050A00A1300D /* ViewController.m in Sources */,
+				F4BDBB5C1B4A063200A1300D /* PlayingCardView.m in Sources */,
 				F4BDBB3A1B4A050A00A1300D /* AppDelegate.m in Sources */,
 				F4BDBB371B4A050A00A1300D /* main.m in Sources */,
 			);
