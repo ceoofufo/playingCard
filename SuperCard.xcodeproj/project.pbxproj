@@ -22,7 +22,7 @@
 		F4BDBB5C1B4A063200A1300D /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BDBB5B1B4A063200A1300D /* PlayingCardView.m */; };
 		F4BDBB691B4B649800A1300D /* J♠️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB5D1B4B649800A1300D /* J♠️.jpg */; };
 		F4BDBB6A1B4B649800A1300D /* J♣️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB5E1B4B649800A1300D /* J♣️.jpg */; };
-		F4BDBB6B1B4B649800A1300D /* J1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB5F1B4B649800A1300D /* J1.jpg */; };
+		F4BDBB6B1B4B649800A1300D /* J♥️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB5F1B4B649800A1300D /* J♥️.jpg */; };
 		F4BDBB6C1B4B649800A1300D /* J♦️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB601B4B649800A1300D /* J♦️.jpg */; };
 		F4BDBB6D1B4B649800A1300D /* K♠️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB611B4B649800A1300D /* K♠️.jpg */; };
 		F4BDBB6E1B4B649800A1300D /* K♣️.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BDBB621B4B649800A1300D /* K♣️.jpg */; };
@@ -73,7 +73,7 @@
 		F4BDBB5B1B4A063200A1300D /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 		F4BDBB5D1B4B649800A1300D /* J♠️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♠️.jpg"; sourceTree = "<group>"; };
 		F4BDBB5E1B4B649800A1300D /* J♣️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♣️.jpg"; sourceTree = "<group>"; };
-		F4BDBB5F1B4B649800A1300D /* J1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = J1.jpg; sourceTree = "<group>"; };
+		F4BDBB5F1B4B649800A1300D /* J♥️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♥️.jpg"; sourceTree = "<group>"; };
 		F4BDBB601B4B649800A1300D /* J♦️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♦️.jpg"; sourceTree = "<group>"; };
 		F4BDBB611B4B649800A1300D /* K♠️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♠️.jpg"; sourceTree = "<group>"; };
 		F4BDBB621B4B649800A1300D /* K♣️.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♣️.jpg"; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 				F4BDBB771B4B64FA00A1300D /* cardback.jpg */,
 				F4BDBB5D1B4B649800A1300D /* J♠️.jpg */,
 				F4BDBB5E1B4B649800A1300D /* J♣️.jpg */,
-				F4BDBB5F1B4B649800A1300D /* J1.jpg */,
+				F4BDBB5F1B4B649800A1300D /* J♥️.jpg */,
 				F4BDBB601B4B649800A1300D /* J♦️.jpg */,
 				F4BDBB611B4B649800A1300D /* K♠️.jpg */,
 				F4BDBB621B4B649800A1300D /* K♣️.jpg */,
@@ -280,7 +280,7 @@
 				F4BDBB6E1B4B649800A1300D /* K♣️.jpg in Resources */,
 				F4BDBB6D1B4B649800A1300D /* K♠️.jpg in Resources */,
 				F4BDBB741B4B649800A1300D /* Q♦️.jpg in Resources */,
-				F4BDBB6B1B4B649800A1300D /* J1.jpg in Resources */,
+				F4BDBB6B1B4B649800A1300D /* J♥️.jpg in Resources */,
 				F4BDBB781B4B64FA00A1300D /* cardback.jpg in Resources */,
 				F4BDBB6C1B4B649800A1300D /* J♦️.jpg in Resources */,
 				F4BDBB401B4A050A00A1300D /* Main.storyboard in Resources */,
