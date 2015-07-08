@@ -65,6 +65,14 @@
     [self setNeedsDisplay];
 }
 
+-(void)pinch:(UIPinchGestureRecognizer*)gesture
+{
+    if ((gesture.state == UIGestureRecognizerStateRecognized) ||
+        (gesture.state == UIGestureRecognizerStateEnded)) {
+        self.faceCardScaleFactor *= gesture.scale;
+        gesture.scale = 1.0;
+    }
+}
 
 - (void)drawRect:(CGRect)rect {
      //Drawing code
@@ -77,16 +85,22 @@
     [[UIColor blackColor] setStroke];
     [roundedRect stroke];
     
-    UIImage *faceImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@%@.jpg",[self rankAsString], self.suit]];
-    if (faceImage) {
-        CGRect imageRect = CGRectInset(self.bounds, self.bounds.size.width * (1.0 - self.faceCardScaleFactor),
-                                       self.bounds.size.height * (1.0 - self.faceCardScaleFactor));
-        [faceImage drawInRect:imageRect];
+    if (self.faceup) {
+        UIImage *faceImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@%@.jpg",[self rankAsString], self.suit]];
+        if (faceImage) {
+            CGRect imageRect = CGRectInset(self.bounds, self.bounds.size.width * (1.0 - self.faceCardScaleFactor),
+                                           self.bounds.size.height * (1.0 - self.faceCardScaleFactor));
+            [faceImage drawInRect:imageRect];
+        } else {
+            [self drawPips];
+        }
+        
+         [self drawCorners];
     } else {
-        [self drawPips];
+        [[UIImage imageNamed:@"cardback.jpg"] drawInRect:self.bounds];
     }
-    
-    [self drawCorners];
+
+   
 }
 
 -(void)drawPips
